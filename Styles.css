@@ -5,7 +5,7 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: #457B9D; 
+    background-color: #581845; 
     margin: 0;
     padding: 0;
     display: flex;
@@ -31,7 +31,7 @@ header.dark-mode, nav.dark-mode {
     background-color: #2D2D4A;
 }
 .container {
-    background-color: #1D3557;
+    background-color: #900C3F;
     position: fixed;
     width: 100%;
     top: 0;
@@ -122,10 +122,9 @@ ul{
     margin-top: 40px;
     margin-bottom: 40px;
     width: 1150px;
-    height: 260px;
-    overflow-y: scroll;
+    height: 700px;
     border-radius: 40px;
-    background-color: #1E2326;
+    background-color: #ff5733;
     color: #fff;
     display: flex;
     gap: 30px;
@@ -133,7 +132,7 @@ ul{
     position: relative;
 }
 .aboutme span{
-    color: #7FFFD4;
+    color: #98FF98;
 }
 .aboutme h2 {
     font-size: 1.6em;
@@ -312,13 +311,14 @@ body.dark-mode .skills {
     height: 500px;
     margin: auto;
     overflow: hidden; 
-    background: #fff;
+    background: #FFC3DF;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border: 1px solid black;
     border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: black;
 }
 
 .carousel {
@@ -336,6 +336,7 @@ body.dark-mode .skills {
 .carousel a {
     text-decoration: none;
     display: block;
+    color: black;
 }
 
 .carousel-item {
@@ -343,7 +344,7 @@ body.dark-mode .skills {
     box-sizing: border-box;
     text-align: center;
     padding: 40px;
-    background-color: #eee;
+    background-color:#FFC3DF;
     font-size: 1.5em;
     display: flex;
     flex-direction: column;
@@ -426,7 +427,7 @@ body.dark-mode .carousel-button:hover {
 
 /*Formulario*/  
 .footer-form {
-    background: white;
+    background: #D700FF;
     padding: 50px;
     border: 1px solid black;
     border-radius: 8px;
@@ -441,7 +442,7 @@ body.dark-mode .footer-form {
 }
 
 .footer-form h2 {
-    color: #333;
+    color: black;
     margin-bottom: 20px;
 }
 
@@ -452,7 +453,7 @@ body.dark-mode .footer-form {
 .form-group label {
     display: block;
     margin-bottom: 5px;
-    color: #555;
+    color: black;
 }
 
 body.dark-mode .form-group label {
@@ -483,7 +484,7 @@ button:hover {
 }
 
 footer {
-    background-color: #1D3557;
+    background-color: #C70039;
     width: 100%;
     bottom: 0;
     z-index: 99;
