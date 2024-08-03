@@ -548,6 +548,7 @@ footer img {
     /* Acerca de mí */ 
     .aboutme {
     width: 60%;
+    height: 2130px;
     flex-direction: column;
     align-items: center;
     font-size: 1em;
@@ -717,6 +718,7 @@ footer img {
     /* Acerca de mí */ 
     .aboutme {
     width: 60%;
+    height: 2600px;
     flex-direction: column;
     align-items: center;
     }
@@ -883,6 +885,7 @@ iPad Air de 1180 px */
     /* Acerca de mí */ 
     .aboutme {
     width: 60%;
+    height: 4775px;
     flex-direction: column;
     align-items: center;
     }
