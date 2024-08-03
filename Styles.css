@@ -5,7 +5,7 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: #581845; 
+    background-color: #15297C; 
     margin: 0;
     padding: 0;
     display: flex;
@@ -31,7 +31,7 @@ header.dark-mode, nav.dark-mode {
     background-color: #2D2D4A;
 }
 .container {
-    background-color: #900C3F;
+    background-color: #1D2951;
     position: fixed;
     width: 100%;
     top: 0;
@@ -124,15 +124,22 @@ ul{
     width: 1150px;
     height: 700px;
     border-radius: 40px;
-    background-color: #ff5733;
+    background-color: #6A8DAB;
     color: #fff;
     display: flex;
     gap: 30px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 2);
     position: relative;
 }
+body.dark-mode .aboutme {
+    background-color: #808080;
+}
 .aboutme span{
-    color: #98FF98;
+    color: #0FF;
+}
+body.dark-mode .aboutme span {
+    color: black;
+    font-weight: 700;
 }
 .aboutme h2 {
     font-size: 1.6em;
@@ -221,12 +228,12 @@ html
     border-radius: 10px;
 }
 .aboutme::-webkit-scrollbar-thumb {
-    background: #FF7D00;
+    background: white;
     border-radius: 10px;
     border: 2px solid #1a1a1a; 
 }
 .aboutme::-webkit-scrollbar-thumb:hover {
-    background: #ff8800;
+    background: black;
 }
 .aboutme::before, .aboutme::after {
     content: "";
@@ -242,7 +249,7 @@ html
 .skills {
     width: 1200px;
     margin: auto;
-    background-color: #E63946;
+    background-color: #6A8DAB;
     margin-top: 90px;
     margin-bottom: 40px;
     border-radius: 2%;
@@ -344,7 +351,7 @@ body.dark-mode .skills {
     box-sizing: border-box;
     text-align: center;
     padding: 40px;
-    background-color:#FFC3DF;
+    background-color:#6A8DAB;
     font-size: 1.5em;
     display: flex;
     flex-direction: column;
@@ -427,7 +434,7 @@ body.dark-mode .carousel-button:hover {
 
 /*Formulario*/  
 .footer-form {
-    background: #D700FF;
+    background: #6A8DAB;
     padding: 50px;
     border: 1px solid black;
     border-radius: 8px;
@@ -484,7 +491,7 @@ button:hover {
 }
 
 footer {
-    background-color: #C70039;
+    background-color: #191970;
     width: 100%;
     bottom: 0;
     z-index: 99;
@@ -548,10 +555,11 @@ footer img {
     /* Acerca de mí */ 
     .aboutme {
     width: 60%;
-    height: 2130px;
+    height: 1000px;
     flex-direction: column;
     align-items: center;
     font-size: 1em;
+    overflow-y: scroll;
     }
 
     .maininfo{
@@ -718,9 +726,15 @@ footer img {
     /* Acerca de mí */ 
     .aboutme {
     width: 60%;
-    height: 2600px;
+    height: 800px;
     flex-direction: column;
     align-items: center;
+    overflow-y: scroll;
+    }
+
+    .briefdesc{
+        width: 170%;
+        text-align: justify;
     }
 
     .maininfo{
@@ -840,7 +854,7 @@ footer img {
 iPad Air de 1180 px */
 @media (height: 1280px) or (height: 1368px) or (height: 1366px) or (height: 1180px) {    
     body, pre, code {
-        font-size: 35px;
+        font-size: 30px;
     }
     
 
@@ -885,9 +899,19 @@ iPad Air de 1180 px */
     /* Acerca de mí */ 
     .aboutme {
     width: 60%;
-    height: 4775px;
+    height: 1000px;
     flex-direction: column;
     align-items: center;
+    overflow-y: scroll;
+    }
+    .aboutme .briefdesc{
+        align-items: start;
+    }
+
+    .briefdesc{
+        width: 150%;
+        text-align: justify;
+        align-items: start;
     }
 
     .maininfo{
